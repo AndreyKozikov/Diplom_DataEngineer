@@ -1,0 +1,17 @@
+{
+  "output_dir": "/opt/airflow/data/",
+  "log_level": "DEBUG",
+  "chrome_options" : ["--headless", "--no-sandbox", "--disable-dev-shm-usage"],
+  "start_url" : "https://www.dohod.ru/analytic/bonds",
+  "page_count" : 5,
+  "coupon_output_file" : "coupons.json",
+  "description_output_file" : "bonds_description.json",
+  "environment" : "production",
+  "coupon_csv_file" : "coupons.csv",
+  "description_csv_file" : "description.csv",
+  "db_user" : "airflow",
+  "db_password" : "airflow",
+  "db_host" : "postgres",
+  "db_database" : "bonds",
+  "db_port" : "5432"
+}
